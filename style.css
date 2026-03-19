@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('../fonts/RobotoSlab.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'RobotoSlab', serif;
+    color: #333;
+}
+.btn-success {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 0;
+}
