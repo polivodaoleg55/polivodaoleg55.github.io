@@ -1,0 +1,9 @@
+.product-icons-bar p {
+    color: #435b61;
+    font-size: 0.75rem;
+}
+.divider-line {
+    height: 4px;
+    background-color: #009688;
+    width: 100%;
+}
