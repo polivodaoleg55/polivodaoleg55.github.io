@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url('../fonts/RobotoSlab.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'RobotoSlab', serif;
+    color: #F7F7F7;
+}
+.product-icons-bar img {
+    height: 80px;
+    width: auto;
+}
+.btn-success {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 25px;
+}
+/*для сторінки Томати */
+.main-title {
+    color: #435b61;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.tomato-banner {
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    width: 100%;
+}
+.content-text p {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.highlight-box {
+    border-left: 5px solid #eb5757;
+    padding: 10px 20px;
+    font-style: italic;
+    color: #555;
+    background-color: #f9f9f9;
+}
+.breeding-programs .program-card {
+    border-right: 1px solid #dee2e6;
+    padding: 0 25px;
+}
+
+.breeding-programs .program-card:last-child {
+    border-right: none;
+}
+.breeding-programs h5 {
+    color: #435b61;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+.breeding-programs p {
+    font-size: 0.9rem;
+    color: #666;
+}
+.product-item img {
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: #F7F7F7;
+    transition: transform 0.2s ease-in-out;
+}
+.product-item img:hover {
+    transform: scale(1.05);
+}
+.product-item h6 {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.social-icons a {
+    font-size: 1.1rem;
+    opacity: 0.8;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    opacity: 1;
+    color: #4CAF50 !important;
+}
+.product-page-body {
+    background-color: #F7F7F7;
+}
+
+.main-content-bg {
+    background-color: #F7F7F7;
+    min-height: 80vh;
+}
